@@ -12,10 +12,9 @@ body {
 .card {
   text-align: center;
   background-color: white;
-  padding: 10px;
   margin: 10%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
+  border-radius: 1rem;
   max-width: 300px; 
   width: 100%; 
   text-align: start;
@@ -25,22 +24,27 @@ body {
 .card img {
   width: 100%;
   height: 100%;
-  object-fit:cover;
+  object-fit:fill;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 }
 
 .card-title {
+ 
+  margin: 10px;
   font-size:30px;
   font-weight: 100;
+  
 }
 
 .card-headline {
+  margin: 10px;
   font-size:15px;
   font-weight: 100;
 }
 
 .card-detail{
+  margin: 10px;
   font-size: 17px;
   font-weight: 300;
   display: -webkit-box;

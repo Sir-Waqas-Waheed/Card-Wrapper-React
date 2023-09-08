@@ -1,11 +1,13 @@
 import React, { Fragment } from 'react';
 import './AppCard.css';
+import pic from './assets/pic.jpg'
+
 
 function AppCard() {
   return (
     <div className='main'>
       <Card
-        image='/public/pic.jpg'
+        image={pic}
         headline='Swat district is also known as the Swat'
         detail='Swat District, also known as the Swat Valley, is a district in the Malakand Division of Khyber Pakhtunkhwa, Pakistan. With a population of 2,309,570 per the 2017 national census, Swat is the 15th-largest district of Khyber Pakhtunkhwa with many popular tourist attractions.'
       />
